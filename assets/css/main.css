@@ -1,0 +1,381 @@
+* {
+    position: relative;
+    z-index: 50;
+}
+
+.main_nav {
+    padding: 8px 0;
+    list-style: none;
+    display: table;
+    width: 100%;
+    background: url('../images/bg_nav.jpg') left bottom repeat-x #f5f9fc;
+    /* position: fixed;
+    top: 90px;
+    left: 0; */
+}
+
+.main_nav>li {
+    display: table-cell;
+    float: none;
+    margin: 0 1px;
+    position: relative;
+    text-align: center;
+    z-index: 500;
+    background: url('../images/nav_saprator.jpg') right top no-repeat;
+    font: 15px Trebuchet MS;
+}
+
+.logo {
+    /* margin-left: 50px; */
+    margin-top: 30px;
+}
+
+.logoImg {
+    max-height: 70px;
+}
+
+.phoneImg {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.telNum {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: white !important;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: left;
+}
+
+.telNum a {
+    color: #D2D2D2;
+    float: right;
+    margin-left: 4px;
+}
+
+.spacer {
+    /* margin-top: 160px; */
+    margin-top: 25px;
+}
+
+.blog-header {
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+    height: 140px;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 15px;
+    border: none;
+}
+
+.offset-0 {
+    margin: 0 !important;
+}
+
+#toogleNavBar {
+    display: none;
+}
+
+.show_on_mobile {
+    display: none;
+}
+
+.titre {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    color: #FBCA01;
+    padding-top: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+
+.navbar-toggler {
+    padding: .25rem 0.45rem;
+}
+
+.phoneRow {
+    /* margin: 0;
+    float: right;
+    text-align: right;
+    margin-top: 10px; */
+    margin: 0;
+    /* float: right; */
+    text-align: right;
+    /* margin-top: 10px; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.phonesSection {
+    float: right;
+    text-align: right;
+}
+
+.titre {
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 12px;
+    text-align: left;
+    color: #d8e3fc;
+}
+
+.sliderBorder {
+    padding: 20px !important;
+    border: 1px solid black !important;
+    background: white !important;
+}
+
+@media (max-width: 991px) {
+    .blog-post-title {
+        margin-bottom: .25rem;
+        font-size: 2rem;
+    }
+    .main_nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .main_nav>li {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        background: none;
+        font: 20px Trebuchet MS;
+        padding: 1px 5px;
+        border-bottom: 1px solid gray;
+    }
+    #navbarsExample08 {
+        position: fixed;
+        top: 135px;
+        left: 15px;
+        z-index: 955;
+        width: 300px;
+    }
+    #toogleNavBar {
+        display: flex;
+    }
+    .logo {
+        /* position: fixed;
+        top: 60px; */
+        margin-left: 35px;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ -----------  and (min-device-width: 414px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) */
+
+@media only screen and (max-device-width: 736px) {
+    .hide_on_mobile {
+        display: none;
+    }
+    .show_on_mobile {
+        display: inherit;
+    }
+    .container {
+        margin-top: 120px;
+    }
+    .blog-header {
+        height: 110px;
+    }
+    .titre {
+        font-size: 13px;
+        padding-top: 5px;
+        letter-spacing: -0.8px;
+    }
+    .titleCol {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hide_on_mobile {
+        display: none;
+    }
+    .show_on_mobile {
+        display: inherit;
+    }
+    .container {
+        margin-top: 120px;
+    }
+    #navbarsExample08 {
+        width: 100%;
+        left: 0;
+        top: 135px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (orientation: landscape) {
+    #navbarsExample08 {
+        width: 100%;
+        left: 0;
+        top: 90px;
+    }
+}
+
+@media (max-width: 372px) {
+    .telNum {
+        font-size: 10px;
+    }
+}
+
+.bg-bleu {
+    /* background-color: #020C25; */
+    /* background-color: #272D4D; */
+    /* background-color: #101361; */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000817+0,111667+100 */
+    background: #000817;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #000817 0%, #111667 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #000817 0%, #111667 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #000817 0%, #111667 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000817', endColorstr='#111667', GradientType=0);
+    /* IE6-9 */
+}
+
+.testimonialElements {
+    font-size: 11px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    border-radius: 5px;
+    color: #020C25;
+    font-weight: 600;
+}
+
+.testimonialElements:last-child {
+    text-align: right;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.blog-footer div hr {
+    background-color: white;
+    border-color: white;
+    color: white;
+}
+
+.blog-footer div h1 {
+    color: #a6f353;
+    font-size: 20px;
+    text-align: left;
+}
+
+.blog-footer div ul {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.blog-footer div ul li a {
+    color: white;
+}
+
+.blog-footer div .f_icon {
+    width: 33px;
+    height: 37px;
+    padding-top: 10px;
+    float: left;
+}
+
+h3.addressFooter {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+h4.addressFooter {
+    font-size: 18px;
+}
+
+p.addressFooter {
+    font-size: 15px;
+}
+
+.testimonial {
+    /* background: #D2D2D2; */
+    background: #F2F2F2;
+    border-radius: 5px;
+    /* border: 1px solid #020C25; */
+}
+
+/*
+@media (min-width: 1200px) {
+    .blog-header {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-header {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .blog-header {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .blog-header {
+        max-width: 540px;
+    }
+} */
+
+.blog-header {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bandeau {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.bandeauTitre {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+
+.nomAltPhoto {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.altPhoto {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* .photoProfil {
+    text-align: center;
+} */
