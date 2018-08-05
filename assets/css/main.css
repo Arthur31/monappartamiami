@@ -31,7 +31,7 @@
 }
 
 .logoImg {
-    max-height: 70px;
+    max-height: 76px;
 }
 
 .phoneImg {
@@ -121,107 +121,17 @@
 .titre {
     padding-left: 0;
     padding-top: 0;
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     color: #d8e3fc;
 }
 
 .sliderBorder {
-    padding: 20px !important;
+    padding: 2px !important;
     border: 1px solid black !important;
     background: white !important;
 }
 
-@media (max-width: 991px) {
-    .blog-post-title {
-        margin-bottom: .25rem;
-        font-size: 2rem;
-    }
-    .main_nav {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .main_nav>li {
-        display: block;
-        width: 100%;
-        padding: 5px;
-        background: none;
-        font: 20px Trebuchet MS;
-        padding: 1px 5px;
-        border-bottom: 1px solid gray;
-    }
-    #navbarsExample08 {
-        position: fixed;
-        top: 135px;
-        left: 15px;
-        z-index: 955;
-        width: 300px;
-    }
-    #toogleNavBar {
-        display: flex;
-    }
-    .logo {
-        /* position: fixed;
-        top: 60px; */
-        margin-left: 35px;
-    }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ -----------  and (min-device-width: 414px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) */
-
-@media only screen and (max-device-width: 736px) {
-    .hide_on_mobile {
-        display: none;
-    }
-    .show_on_mobile {
-        display: inherit;
-    }
-    .container {
-        margin-top: 120px;
-    }
-    .blog-header {
-        height: 110px;
-    }
-    .titre {
-        font-size: 13px;
-        padding-top: 5px;
-        letter-spacing: -0.8px;
-    }
-    .titleCol {
-        padding-left: 0;
-    }
-}
-
-@media (max-width: 576px) {
-    .hide_on_mobile {
-        display: none;
-    }
-    .show_on_mobile {
-        display: inherit;
-    }
-    .container {
-        margin-top: 120px;
-    }
-    #navbarsExample08 {
-        width: 100%;
-        left: 0;
-        top: 135px;
-    }
-}
-
-@media only screen and (max-width: 576px) and (orientation: landscape) {
-    #navbarsExample08 {
-        width: 100%;
-        left: 0;
-        top: 90px;
-    }
-}
-
-@media (max-width: 372px) {
-    .telNum {
-        font-size: 10px;
-    }
-}
 
 .bg-bleu {
     /* background-color: #020C25; */
@@ -243,11 +153,16 @@
 .testimonialElements {
     font-size: 11px;
     margin: 10px 0;
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     padding: 5px;
     border-radius: 5px;
     color: #020C25;
-    font-weight: 600;
+    /* font-weight: 600; */
+    /* border: 1px solid #377D22; */
+}
+hr{
+
+  border-top: 1px solid rgba(26, 74, 52, 0.86);
 }
 
 .testimonialElements:last-child {
@@ -305,11 +220,15 @@ p.addressFooter {
 
 .testimonial {
     /* background: #D2D2D2; */
-    background: #F2F2F2;
+    background: #E9FAE1;
     border-radius: 5px;
+    border: 1px solid #377D22;
     /* border: 1px solid #020C25; */
 }
-
+.font-italic{
+  color:#377D22;
+  text-align: center;
+}
 /*
 @media (min-width: 1200px) {
     .blog-header {
@@ -379,3 +298,125 @@ p.addressFooter {
 /* .photoProfil {
     text-align: center;
 } */
+
+
+/* ______________________ _______________________________________________________ */
+
+
+@media (max-width: 991px) {
+  .titre{
+    font-size: 11px;
+  }
+
+    .blog-post-title {
+        margin-bottom: .25rem;
+        font-size: 2rem;
+    }
+    .main_nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .main_nav>li {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        background: none;
+        font: 20px Trebuchet MS;
+        padding: 1px 5px;
+        border-bottom: 1px solid gray;
+    }
+    #navbarsExample08 {
+        position: fixed;
+        top: 135px;
+        left: 15px;
+        z-index: 955;
+        width: 300px;
+    }
+    #toogleNavBar {
+        display: flex;
+    }
+    .logo {
+        /* position: fixed;
+        top: 60px; */
+        margin-left: 35px;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ -----------  and (min-device-width: 414px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) */
+
+@media only screen and (max-device-width: 736px) {
+  .logoImg{
+    height: 80px;
+  }
+    .hide_on_mobile {
+        display: none;
+    }
+    .show_on_mobile {
+        display: inherit;
+    }
+    .container {
+        margin-top: 120px;
+    }
+    .blog-header {
+        height: 110px;
+    }
+    .titre {
+        font-size: 11px;
+        padding-top: 5px;
+        letter-spacing: -0.8px;
+    }
+    .titleCol {
+        padding-left: 0;
+    }
+    .blog-post{
+      float: left;
+    }
+    .bandeau{
+      height: 250px;
+    }
+    .blog-post{
+      margin-top: 30px;
+    }
+.blog-post-title{
+  font-size: 1.5rem;
+}
+.blog-post p{
+  font-size:.8rem;
+  height: auto;
+}
+.blog-main{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  max-height: 525px;
+}
+}
+@media (max-width: 576px) {
+    .hide_on_mobile {
+        display: none;
+    }
+    .show_on_mobile {
+        display: inherit;
+    }
+    .container {
+        margin-top: 120px;
+    }
+    #navbarsExample08 {
+        width: 100%;
+        left: 0;
+        top: 135px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (orientation: landscape) {
+    #navbarsExample08 {
+        width: 100%;
+        left: 0;
+        top: 90px;
+    }
+}
+
+@media (max-width: 372px) {
+    .telNum {
+        font-size: 10px;
+    }
+}
