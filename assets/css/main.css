@@ -166,14 +166,15 @@ hr{
 }
 
 .testimonialElements:last-child {
-    text-align: right;
-    text-decoration: underline;
+    text-align: left;
+    /* text-decoration: underline; */
     background: none;
     border: none;
     padding: 0;
     margin: 0;
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: .8rem;
+    font-weight: 400;
+    color:red;
 }
 
 .blog-footer div hr {
@@ -294,7 +295,31 @@ p.addressFooter {
     font-size: 12px;
     text-align: center;
 }
+.property{
+  margin-top: 35px;
+  background-color: rgba(223,221,230,.8)
+}
 
+.bg-light{
+  background-color: #c0b6ca7a!important;
+  border: 1px solid #001FF1;
+}
+.rounded{
+  border-radius:0!important;
+}
+.pro_top_new{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(204, 205, 251);
+}
+#result_box{
+  text-align: center;
+    line-height: 35px;
+    margin: 0;
+  padding: 5px;
+}
 /* .photoProfil {
     text-align: center;
 } */
